@@ -9,13 +9,10 @@ var lion = {
 //Create a function below this line
 
 function myFunction(propName, propValue){
-    lion["roar"] = "roar-roar";
-      return lion;
+    lion[propName] = propValue
+    return lion;
 };
 
-
-
-//console.log(myFunction("roar", "roar-roar"));
 console.log(myFunction("roar", "roar-roar"));
 
 //End of function
